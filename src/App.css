@@ -1,38 +1,62 @@
-.App {
+*{
+  box-sizing: border-box;
+
+}
+
+.ntk-navbar {
+  width:100%;
+  background-color: #0b0191;
+  position:fixed;
+  max-height: 4em;
+  padding-top: auto;
+  vertical-align: middle;
+
+}
+
+.ntk-nav
+{
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.ntk-nav-link{
+  font-size: 1.5em;
+  color: #fff;
+  margin-inline: 15px;
+  text-decoration: none;
+}
+
+.ntk-nav-link.active{
+  text-decoration: underline !important;
+  text-underline-offset: 0.5em;
+  text-decoration-thickness: 0.2em;
+}
+
+.ntk-body{
+  position: relative;
+  top: 4em;
+  padding: 2.5%;
+ 
+}
+
+.ntk-wlc-msg{
+  font-size: 1.5em;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ntk-ppcwi
+{
+  position: relative;
+  left: 10%;
+  background-color: #0b0191;
+  color: #fff;
+  padding: 20px;
+  width: 90%;
+  height: 11em;
+  border-radius: 12px;
+  text-align: center;
 }
