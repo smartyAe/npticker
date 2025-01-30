@@ -1,7 +1,7 @@
 export const ROUTES={
-    "home":"/home",
-    "services":"/services",
-    "projects":"/projects",
-    "blog":"/blog",
-    "contact":"/contact",
+    "home":"/npticker/home",
+    "services":"/npticker/services",
+    "projects":"/npticker/projects",
+    "blog":"/npticker/blog",
+    "contact":"/npticker/contact",
 } 
