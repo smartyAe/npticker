@@ -21,7 +21,7 @@ function App() {
   useEffect(()=>{
     let path=window.location.pathname;
     console.log(path);
-    if(path=="/npticker")
+    if(path=="/npticker" || path=="/npticker/")
     {
       window.location.pathname=ROUTES.home;
       path=ROUTES.home;
