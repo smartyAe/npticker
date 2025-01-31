@@ -1,15 +1,22 @@
 import React from 'react';
-function PresentationContainer() {
+
+function PresentationContainer(props) {
     return ( 
-        <div>
-            <div className='ntk-ppcwi'>
-                <h1>Qui suis-je?</h1>
-                <br></br>
-                <h4>
-                    COULIBALY KILOFAWORO ATHANASE, Fondateur & CTO de NPTICKER 
-                </h4>
+            <div className='ntk-ppcwi d-flex' style={{height:props.height, width:props.width}}>
+                <div className='col-xs-12 col-lg-4'>
+                    {
+                        props.img!=undefined
+                        ? <img width={400} height={300} src={props.img} />
+                        :<span></span>
+                        
+                    }
+                </div>
+                <div className='col-xs-12 col-lg-8'>
+                    <p className='ntk-wlc-msg' style={{fontSize:"3em"}}>
+                        Welcome to &nbsp; <img width={300} height={120} src={props.logo} alt="Logo"/>
+                    </p>
+                </div>
             </div>
-        </div>
      );
 }
 

@@ -1,9 +1,15 @@
 import React from 'react';
+import Sidebar from '../Sidebar/SideBar';
+
 function Projects() {
     return ( 
-        <div className='ntk-body'>
-            <h1>Projects !!</h1>
-        </div>
+        <section>
+            
+            <div className='ntk-body'>
+            
+                <h1>Projects here</h1>
+            </div>
+        </section>
      );
 }
 

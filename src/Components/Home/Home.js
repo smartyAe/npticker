@@ -1,16 +1,13 @@
 import React from 'react';
+import imgHome from '../../home-img.png';
+import logo from '../../logo-lg-nptker.png';
 import PresentationContainer from '../PresentationContainer/PresentationContainer';
 
 function Home() {
     return ( 
     <div className='ntk-body'>
-        <p className='ntk-wlc-msg'>
-            Bienvenue chez <b>NPTICKER</b>, nous offrons la solution numérique adéquate à vos besoins
-        </p>
-        <PresentationContainer/>
-        <div>
-            
-        </div>
+        <PresentationContainer width={"100%"} height={"22em"} img={imgHome} logo={logo}/>
+       
     </div> );
 }
 

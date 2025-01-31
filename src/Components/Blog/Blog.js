@@ -1,9 +1,14 @@
 import React from 'react';
+import Sidebar from '../Sidebar/SideBar';
+
 function Blog() {
     return ( 
+        <section>
         <div className='ntk-body'>
-            <h1>Blog !!</h1>
+        
+            <h1>Blog here</h1>
         </div>
+    </section>
      );
 }
 
