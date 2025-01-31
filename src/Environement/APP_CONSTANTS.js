@@ -1,5 +1,5 @@
 export const ROUTES={
-    "home":"/",
+    "home":"/npticker",
     "services":"/npticker/services",
     "projects":"/npticker/projects",
     "formation":"/npticker/formation",
