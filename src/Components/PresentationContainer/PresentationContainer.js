@@ -2,7 +2,7 @@ import React from 'react';
 
 function PresentationContainer(props) {
     return ( 
-            <div className='ntk-ppcwi d-flex' style={{height:props.height, width:props.width}}>
+            <div className='ntk-ppcwi d-flex' style={{height:props.estyle.height, width:props.estyle.width,margin:props.estyle.margin}}>
                 <div className='col-xs-12 col-lg-4'>
                     {
                         props.img!=undefined
