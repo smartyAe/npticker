@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/npticker/static/css/main.98302132.css",
-    "main.js": "/npticker/static/js/main.0b1f1459.js",
+    "main.js": "/npticker/static/js/main.4d9afddb.js",
     "static/js/488.627492c9.chunk.js": "/npticker/static/js/488.627492c9.chunk.js",
     "static/media/ambition.png": "/npticker/static/media/ambition.b60a978c7b430f337a2d.png",
     "static/media/dexpertise.png": "/npticker/static/media/dexpertise.b60a978c7b430f337a2d.png",
@@ -10,11 +10,11 @@
     "static/media/intervention.png": "/npticker/static/media/intervention.c69ee77cd30f492559a7.png",
     "index.html": "/npticker/index.html",
     "main.98302132.css.map": "/npticker/static/css/main.98302132.css.map",
-    "main.0b1f1459.js.map": "/npticker/static/js/main.0b1f1459.js.map",
+    "main.4d9afddb.js.map": "/npticker/static/js/main.4d9afddb.js.map",
     "488.627492c9.chunk.js.map": "/npticker/static/js/488.627492c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.98302132.css",
-    "static/js/main.0b1f1459.js"
+    "static/js/main.4d9afddb.js"
   ]
 }
