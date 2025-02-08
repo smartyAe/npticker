@@ -14,6 +14,8 @@ function PresentationContainer(props) {
                 <div className='col-xs-12 col-lg-8'>
                     <p className='ntk-wlc-msg' style={{fontSize:"3em"}}>
                         Welcome to &nbsp; <img width={300} height={120} src={props.logo} alt="Logo"/>
+                        <br/>
+                        <h4>Stop struggling with it, we are here! Let try it out together !</h4>
                     </p>
                 </div>
             </div>

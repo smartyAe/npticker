@@ -94,6 +94,9 @@ function App() {
                      onClick={(e)=>setCurrentPage(ROUTES.contact)}
                     to={ROUTES.contact}>Contact</Link>
                   </li>
+                  <li className='ntk-nav-item'>
+                    <Link className='ntk-nav-link btn btn-md btn-block btn-outline-light mt-1'>Login</Link>
+                  </li>
                 </ul>
             </nav>
             
