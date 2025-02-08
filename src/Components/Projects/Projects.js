@@ -7,7 +7,7 @@ function Projects() {
         <section>
             
             <div className='ntk-body'>
-                <PresentationContainer estyle={{ width: "100%", height: "12em" }} />
+                <PresentationContainer text1="Our projects" text2="Faites le tour de nos projets" estyle={{ width: "100%", height: "12em" }} />
                 <div className='text-center mt-3 p-3'>
                     <button className='btn btn-primary ms-3'>All</button>
                     <button className='btn btn-outline-primary ms-3'>Angular</button>

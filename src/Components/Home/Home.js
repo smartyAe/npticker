@@ -6,12 +6,12 @@ import intervention from "./images/intervention.png";
 import formation from "./images/formation.png";
 import ambition from "./images/ambition.png";
 import PresentationContainer from '../PresentationContainer/PresentationContainer';
-import BorderedMsg from '../BorderedMsg/BorderedMsg';
+import BorderedMsg from '../PresentationContainer/BorderedMsg';
 
 function Home() {
     return (
         <div className='ntk-body'>
-            <PresentationContainer estyle={{ width: "100%", height: "12em" }} img={imgHome} logo={logo} />
+            <PresentationContainer text1="Welcome to" text2="Stop struggling with it, we are here! Let try it out together !" estyle={{ width: "100%", height: "12em" }} img={imgHome} logo={logo} />
             <BorderedMsg estyle={{ width: "50%", height: "3em", margin: "3.5% 25% 2%" }} text={{ class: "ntk-h1", content: "Overview" }} />
             <div>
                 <p className='py-3 px-5'>

@@ -7,10 +7,11 @@ function Formation() {
     return ( 
         <section>
             <div className='ntk-body'>
-                <PresentationContainer estyle={{ width: "100%", height: "12em" }} />
+                <PresentationContainer text1="Nos formations" text2="Atteignez l'excellence en apprenant avec des experts" estyle={{ width: "100%", height: "12em" }} />
                 
                 <div className='text-center mt-3 p-3'>
-                    <button className='btn btn-primary ms-3'>Building software</button>
+                    <button className='btn btn-primary ms-3'>All</button>
+                    <button className='btn btn-outline-primary ms-3'>Building software</button>
                     <button className='btn btn-outline-primary ms-3'>Reporting</button>
                     <button className='btn btn-outline-primary ms-3'>Teaching</button>
                     <button className='btn btn-outline-primary ms-3'>Consulting</button>

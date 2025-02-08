@@ -6,7 +6,7 @@ function Services() {
         <section>
 
             <div className='ntk-body'>
-                <PresentationContainer estyle={{ width: "100%", height: "12em" }} />
+                <PresentationContainer text1="Nos services" text2="Découvrez nos domaines d'expertise" estyle={{ width: "100%", height: "12em" }} />
 
                 <div className='text-center mt-3 p-3'>
                     <button className='btn btn-primary ms-3'>Building software</button>

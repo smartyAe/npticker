@@ -6,10 +6,11 @@ function Blog() {
     return (
         <section>
             <div className='ntk-body'>
-                <PresentationContainer estyle={{ width: "100%", height: "12em" }} />
+                <PresentationContainer text1="Nos réflexions et découvertes" text2="Apprenez un peu plus avec nos réflexions et nos découvertes" estyle={{ width: "100%", height: "12em" }} />
                 
                 <div className='text-center mt-3 p-3'>
-                    <button className='btn btn-primary ms-3'>Programmation</button>
+                    <button className='btn btn-primary ms-3'>All</button>
+                    <button className='btn btn-outline-primary ms-3'>Programmation</button>
                     <button className='btn btn-outline-primary ms-3'>Software</button>
                     <button className='btn btn-outline-primary ms-3'>Data & Reporting</button>
                     <button className='btn btn-outline-primary ms-3'>Intelligence artificial</button>
