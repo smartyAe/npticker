@@ -17,15 +17,15 @@ function PresentationContainer(props) {
                     
                         {
                             props.img!=undefined
-                            ? <p className='ntk-wlc-msg' style={{fontSize:"3em"}}>
+                            ? <div className='ntk-wlc-msg' style={{fontSize:"3em"}}>
                                 {props.text1} &nbsp; <img width={300} height={120} src={props.logo} alt="Logo"/>
                                 <br/>
                                 <h4>{props.text2}</h4>
-                            </p>
-                            :<p className='ntk-wlc-msg' style={{fontSize:"3em"}}
+                            </div>
+                            :<div className='ntk-wlc-msg' style={{fontSize:"3em"}}
                                 >{props.text1}  <br/>
                                 <h4>{props.text2}</h4>
-                            </p>
+                            </div>
                             
                         }
                         

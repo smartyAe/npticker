@@ -1,9 +1,12 @@
 import React from 'react';
+import {useNavigate} from 'react-router-dom';
 import dexpertise from "../Home/images/dexpertise.png";
 import Sidebar from '../Sidebar/SideBar';
 import PresentationContainer from '../PresentationContainer/PresentationContainer';
+import {ROUTES} from '../../Environement/APP_CONSTANTS'; 
 
 function Formation() {
+    const navigate=useNavigate();
     return ( 
         <section>
             <div className='ntk-body'>
@@ -16,17 +19,19 @@ function Formation() {
                     <button className='btn btn-outline-primary ms-3'>Teaching</button>
                     <button className='btn btn-outline-primary ms-3'>Consulting</button>
                 </div>
-                <div className='d-flex justify-content-between px-3'>
-                    <div className='col-xs-5'>
+                <div className='d-flex justify-content-between'>
+                    <div className='col-xs-12  col-md-5 col-lg-3'>
                         <div className='card'>
                             <div className='card-body'>
                                 <img width={"100%"} height={"80%"} src={dexpertise}/>
                             </div>
                         </div>
-                        
                     </div>
-                    <div className='col-xs-7 px-5 py-3'>
-                        <h1>Lorem Ipsum</h1>
+                    <div className='col-xs-12  col-md-7 col-lg-9 px-3 py-3'>
+                        <div className='d-flex justify-content-between'>
+                            <h1 className='col-xs-12 col-md-7 col-lg-10'>Lorem Ipsum</h1>
+                            <h4 className='col-xs-12 col-md-5 col-lg-2'>Coût: 150€</h4>
+                        </div>
                         <p className='small'>
                             "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
                         </p>
@@ -40,7 +45,7 @@ function Formation() {
                         </p>
                         
                         <div className='text-center mt-4'>
-                                <button className='btn btn-primary'>
+                                <button className='btn btn-primary' onClick={()=>navigate(ROUTES.formation_content)}>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
                                     Commencer le cours
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </button>

@@ -12,7 +12,7 @@ function Home() {
     return (
         <div className='ntk-body'>
             <PresentationContainer text1="Welcome to" text2="Stop struggling with it, we are here! Let try it out together !" estyle={{ width: "100%", height: "12em" }} img={imgHome} logo={logo} />
-            <BorderedMsg estyle={{ width: "50%", height: "3em", margin: "3.5% 25% 2%" }} text={{ class: "ntk-h1", content: "Overview" }} />
+            <BorderedMsg estyle={{ width: "50%", height: "3em", margin: "3.5% 25% 2%" }} text={{ className: "ntk-h1", content: "Overview" }} />
             <div>
                 <p className='py-3 px-5'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a sollicitudin ex. Nam mollis ut urna ac euismod. Aliquam eleifend lacus sit amet tristique euismod. Curabitur ornare quam sem, vel iaculis velit lacinia ut. Mauris a dapibus nulla, at convallis erat. Vestibulum metus nulla, egestas at urna ac, tempus euismod ligula. Mauris ultrices felis sodales diam maximus, vel gravida orci pellentesque.
@@ -50,7 +50,7 @@ function Home() {
 
             </div>
 
-            <BorderedMsg estyle={{ width: "50%", height: "3em", margin: "3.5% 25% 2%" }} text={{ class: "ntk-h1", content: "Work process" }} />
+            <BorderedMsg estyle={{ width: "50%", height: "3em", margin: "3.5% 25% 2%" }} text={{ className: "ntk-h1", content: "Work process" }} />
             <div>
                 <div className="row">
                     <div className="col-sm-4 mb-3 mb-sm-0">
@@ -176,16 +176,16 @@ function Home() {
                 </div>
             </div>
 
-            <BorderedMsg estyle={{ width: "50%", height: "3em", margin: "3.5% 25% 2%" }} text={{ class: "ntk-h1", content: "Great clients We've worked with" }} />
+            <BorderedMsg estyle={{ width: "50%", height: "3em", margin: "3.5% 25% 2%" }} text={{ className: "ntk-h1", content: "Great clients We've worked with" }} />
             <div>
                 <div className="row">
                     <div className="col-sm-4 mb-3 mb-sm-0">
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title">Special title treatment</h5>
-                                <blockquote class="blockquote mb-0">
+                                <blockquote className="blockquote mb-0">
                                     <p>A well-known quote, contained in a blockquote element.</p>
-                                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                                    <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                                 </blockquote>
                             </div>
                         </div>
@@ -194,9 +194,9 @@ function Home() {
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title">Special title treatment</h5>
-                                <blockquote class="blockquote mb-0">
+                                <blockquote className="blockquote mb-0">
                                     <p>A well-known quote, contained in a blockquote element.</p>
-                                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                                    <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                                 </blockquote>
                             </div>
                         </div>
@@ -204,7 +204,7 @@ function Home() {
                 </div>
             </div>
 
-            <BorderedMsg estyle={{ width: "50%", height: "3em", margin: "3.5% 25% 2%" }} text={{ class: "ntk-h1", content: "Take a look to some projects" }} />
+            <BorderedMsg estyle={{ width: "50%", height: "3em", margin: "3.5% 25% 2%" }} text={{ className: "ntk-h1", content: "Take a look to some projects" }} />
             <div>
                 <div className='d-flex justify-content-between p-3'>
                     <div className="card col-xs-12 col-sm-6 col-md-4 ms-3" style={{ height: "10%" }}>
@@ -246,7 +246,7 @@ function Home() {
                         <button className='btn btn-outline-primary'>view all projects</button>
                 </div>
             </div>
-            <BorderedMsg estyle={{ width: "50%", height: "3em", margin: "3.5% 25% 2%" }} text={{ class: "ntk-h1", content: "Our lastest posts" }} />
+            <BorderedMsg estyle={{ width: "50%", height: "3em", margin: "3.5% 25% 2%" }} text={{ className: "ntk-h1", content: "Our lastest posts" }} />
             <div>
                 <div className='d-flex justify-content-between p-3'>
                     <div className="card col-xs-12 col-sm-6 col-md-6 ms-3">

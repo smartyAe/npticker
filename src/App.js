@@ -12,6 +12,7 @@ import Blog from './Components/Blog/Blog';
 import { useEffect, useState } from 'react';
 import Sidebar from './Components/Sidebar/SideBar';
 import Formation from './Components/Formation/Formation';
+import FormationContent from './Components/Formation/Formation_content';
 
 
 function App() {
@@ -105,6 +106,7 @@ function App() {
                 <Route path={ROUTES.services} element={<Services/>}></Route>
                 <Route path={ROUTES.projects} element={<Projects/>}></Route>
                 <Route path={ROUTES.formation} element={<Formation/>}></Route>
+                <Route path={ROUTES.formation_content} element={<FormationContent/>}></Route>
                 <Route path={ROUTES.blog} element={<Blog/>}></Route>
                 <Route path={ROUTES.contact} element={<Contact/>}></Route>
             </Routes>

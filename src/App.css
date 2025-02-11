@@ -57,6 +57,13 @@
  
 }
 
+.ntk-body2{
+  position: relative;
+  top: 2em;
+  padding: 4% 2%;
+ 
+}
+
 .ntk-wlc-msg{
   position: relative;
   font-size: 2em;
@@ -80,4 +87,8 @@
 
 .ntk-h1{
   font-size: 24px;
+}
+
+.v-title{
+  color: #0d6efd;
 }
